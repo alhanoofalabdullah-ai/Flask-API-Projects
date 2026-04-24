@@ -77,6 +77,59 @@ python app.py
 
 - Authorization: Bearer YOUR_TOKEN
 
+## Setup Commands
+
+- cd ~/Flask-API-Projects
+- mkdir project-12-jwt-authentication-api
+- cd project-12-jwt-authentication-api
+- touch README.md app.py requirements.txt
+
+## Run the Project
+
+- pip install -r requirements.txt
+python app.py
+
+## Git Commands
+
+- cd ..
+- git add .
+- git commit -m "add project 12 jwt authentication api"
+- git push
+
+## Testing with Postman
+
+1) Health Check
+
+GET http://127.0.0.1:5000/
+
+2) Register
+
+POST http://127.0.0.1:5000/register
+
+## Request body:
+
+{
+  "username": "alhanoof",
+  "password": "123456"
+}
+
+3) Login
+
+POST http://127.0.0.1:5000/login
+
+## Request body:
+
+{
+  "username": "alhanoof",
+  "password": "123456"
+}
+
+4) Protected Route
+
+## Header:
+
+Authorization: Bearer YOUR_TOKEN
+
 ---------------
 Author
 
