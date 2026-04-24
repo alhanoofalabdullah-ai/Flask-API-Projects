@@ -1,54 +1,111 @@
-# 🚀 Flask API Projects Portfolio
+# Flask API Projects
 
-A collection of Flask API projects demonstrating backend development, REST API design, and real-world application structure.
-
----
-
-## 📌 Projects
-
-### 1️⃣ Task API
-CRUD API for managing tasks with search and filters.
-
-### 2️⃣ Student API
-Manage student records and grades.
-
-### 3️⃣ Inventory API
-Track products and stock levels.
-
-### 4️⃣ Expense API
-Track and analyze expenses.
-
-### 5️⃣ Contact API
-Store and search contacts.
-
-### 6️⃣ Authentication API
-Basic login and user authentication system.
-
-### 7️⃣ Blog API
-Posts, comments, and content management.
-
-### 8️⃣ E-Commerce API
-Products, orders, and customers.
-
-### 9️⃣ Reporting API
-Generate analytics and summaries.
-
-### 🔟 Dashboard API
-Backend data provider for dashboards.
+A professional collection of Flask API projects for backend development, CRUD operations, authentication, validation, security, and REST API practice.
 
 ---
 
-## 🛠 Skills Demonstrated
+## Overview
+
+This repository contains hands-on Flask API projects designed to strengthen backend development skills and prepare for real-world production-level API systems.
+
+The projects cover:
+
+- CRUD APIs
+- Authentication Systems
+- JWT Security
+- Role-Based Access
+- Refresh Tokens
+- File Upload APIs
+- Pagination + Search
+- Error Handling
+- Logging + Request Tracking
+- API Caching
+- Rate Limiting
+- Security Headers
+
+---
+
+## Projects
+
+### Core Projects
+
+- Project 01 – Task API
+- Project 02 – Student API
+- Project 03 – Inventory API
+- Project 04 – Expense API
+- Project 05 – Contact API
+- Project 06 – Authentication API
+- Project 07 – Blog API
+- Project 08 – E-Commerce API
+- Project 09 – Reporting API
+- Project 10 – Dashboard API
+
+---
+
+### Pro Level Projects
+
+- Project 11 – File Upload API
+- Project 12 – JWT Authentication API
+- Project 13 – Role-Based Access API
+- Project 14 – Refresh Token API
+- Project 15 – CRUD API with Pagination + Search
+- Project 16 – API Error Handling + Validation
+- Project 17 – API Logging + Request Tracking
+- Project 18 – API Caching Pro
+- Project 19 – API Rate Limiting Pro
+- Project 20 – API Security Headers Pro
+
+---
+
+## Technologies Used
+
+- Python
 - Flask
-- REST API Development
-- CRUD Operations
-- JSON Handling
-- Routing & Endpoints
-- Validation
-- Filtering & Search APIs
-- Backend Development Fundamentals
+- REST APIs
+- JWT Authentication
+- SQLite
+- JSON
+- Request Validation
+- Logging Systems
+- API Security
+- Rate Limiting
+- Caching
+- Git & GitHub
 
 ---
 
-## 🎯 Goal
-Building production-ready backend skills using Flask.
+## Goal
+
+Build production-ready Flask APIs and strengthen backend engineering skills for real-world development, system design, and professional software engineering roles.
+
+---
+
+## Repository Structure
+
+Each project contains:
+
+- app.py → Main Flask application
+- requirements.txt → Project dependencies
+- README.md → Project documentation
+- Additional files when needed (database.db, uploads, logs, etc.)
+
+---
+
+## How to Run Any Project
+
+Inside each project folder:
+
+```bash
+pip install -r requirements.txt
+python app.py
+
+## Git Workflow
+
+- git add .
+- git commit -m "update flask api project"
+- git push
+
+-------------------
+Author
+
+Alhanoof Alabdullah
